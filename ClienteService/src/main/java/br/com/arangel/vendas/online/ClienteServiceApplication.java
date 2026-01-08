@@ -6,7 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@OpenAPIDefinition(info = @Info(title = "Swagger teste", version = "1", description = "Microsserviço de clientes"))
+@OpenAPIDefinition(info = @Info(title = "Cliente Service", version = "1", description = "Microsserviço de clientes"))
 public class ClienteServiceApplication {
 
 	public static void main(String[] args) {
